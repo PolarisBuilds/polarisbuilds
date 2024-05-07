@@ -1,0 +1,40 @@
+.Select {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 500px;
+
+}
+
+.Select input {
+    min-width: 500px;
+    font-size: 28px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+    /* margin: 30px 0; */
+    padding: 10px;
+}
+
+.Options {
+    width: 100%;
+    text-align: center;
+    /* padding: 5px; */
+    display: none;
+}
+
+.Option {
+    /* border: 1px solid black; */
+    margin: 10px 0;
+    background-color: rgb(238, 238, 238);
+}
+
+
+.Option:hover {
+    background-color: rgb(159, 244, 255);
+}
+
+.Shown {
+    display: block;
+}
